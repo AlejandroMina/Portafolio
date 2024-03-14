@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html">A <span>M</span></a>
+            </div>
+            <div class="links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Porfolio">Portafolio</a></li>
+                <li><a href="#About">Acerca de</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="contact">Contacto</a></li>
+                <li><a href="https://wa.me/+573225751140" class="active" target="_blank">Whatsapp</a></li>
+              </ul>
+            </div>
+            <div class="hamburger-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="colum-1">
+              <h1 class="header-title">Alejandro <span>Mina</span></h1>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo et asperiores laborum ipsam. Officia ducimus repudiandae a repellendus ipsam ad aspernatur. Facere, deserunt aliquid! Nobis ipsum tenetur quis sunt quisquam.</p>
+              <a href="" target="_blank" download="">
+                <button class="btn">descargar CV</button>
+              </a>
+            </div>
+            <div class="colum-2 image">
+              <img src="./img/react.png" alt="react" class="img-element z-index">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services secction" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="lo que hago">Servicios</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione, ex nostrum a ab deserunt atque modi sint magni quos et at? Aut voluptates ut eum. Dolorem tenetur dicta sequi.</p> 
+          </div>
+
+          <div class="cards">
+            <div class="card" data-card="UX/UI">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.svg" alt="icono ui/ux" class="icon">
+                <h3 class="title-sm">Diseño Web</h3>
+                <p> Apasionado diseñador web freelance dedicado a llevar la presencia en línea de tu negocio al siguiente nivel.</p>
+                <a href="#" class="btn small">ver mas</a>
+              </div>
+            </div>
+           
+            <div class="card" data-card="code">
+              <div class="card-content z-index">
+                <img src="./img/code-icon.svg" alt="icono code" class="icon">
+                <h3 class="title-sm">Desarrollo web</h3>
+                <p>Desarrollador web con la pasión y la experiencia necesarias para convertir tu visión digital en realidad.</p>
+                <a href="#" class="btn small">ver mas</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="app">
+              <div class="card-content z-index">
+                <img src="./img/app-icon.svg" alt="icono app" class="icon">
+                <h3 class="title-sm">Desarrollo de apps</h3>
+                <p>Una combinación de creatividad técnica y estratégica, transformo ideas en aplicaciones innovadoras que capturan y retienen la atención de los usuarios.</p>
+                <a href="#" class="btn small">ver mas</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+
+      <section class="contact" id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127450.10996444109!2d-76.60806616370677!3d3.395060897054508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses-419!2sco!4v1709947196221!5m2!1ses-419!2sco" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en contacto</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil ab dolorum incidunt consectetur ipsum hic eius fugia</p>
+              <div class="informatio-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Cali, Colombia</p>
+                </div>       
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">jamm0617@hotmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">3225751140</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <form class="contact-form">
+                <h3 class="title">Contáctame</h3>
+                <div class="row">
+                  <input type="text" class="contact-input" placeholder="Nombre" />
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="Apellido"
+                  />
+                </div>
+                <div class="row">
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="Celular"
+                  />
+                  <input type="email" class="contact-input" placeholder="Email" />
+                </div>
+                <div class="row">
+                  <textarea
+                    name="message"
+                    class="contact-input textarea"
+                    placeholder="Mensaje"
+                  ></textarea>
+                </div>
+                <a href="#" class="btn">Enviar</a>
+              </form>
+            </div>
+         </div>   
+        </div>    
+      </section>
+    </main>
+
+    <!-- Sección pie de página -->
+    <footer class="footer">
+      <div class="social-items">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+
+      <ul class="list">
+          <li>
+              <a href="#">T&C</a>
+          </li>
+          <li>
+              <a href="#">Política de privacidad</a>
+          </li>
+      </ul>
+      <p class="copyright"> Todos los derechos reservados 2024 </p>
+  </footer>
+  </body>
+</html>
